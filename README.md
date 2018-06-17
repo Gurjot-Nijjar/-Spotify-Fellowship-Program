@@ -1,8 +1,9 @@
 # Spotify-Fellowship-Program
 
-Compiling Instructions on Linux Terminal
+# Compiling Instructions on Linux Terminal
 g++ -std=c++11 [numberofproblem].cpp -o [nameofprogram]
-Executing Program
+
+# Executing Program
 ./[nameofprogram]
 
 
