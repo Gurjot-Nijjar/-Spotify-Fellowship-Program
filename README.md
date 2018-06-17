@@ -6,6 +6,8 @@ g++ -std=c++11 [numberofproblem].cpp -o [nameofprogram]
 # Executing Program
 ./[nameofprogram]
 
+# The technical questions
+
 
 The questions in this section test your general programming knowledge. You must solve all of these questions with basic programming constructs. You may not use any large libraries or frameworks to solve these questions.
 
