@@ -50,7 +50,7 @@ string decodeString(string s)
         // The ] is an indicator for when the encoded string bracket stops and we can then start popping off the stack to complete the decoding process
         if (stack_.top() == ']')
         {
-            stack_.pop(); // pop the ] in the stack we do not need it know 
+            stack_.pop(); // pop the ] in the stack we do not need it now 
             
             // the loop is used to get the characters inside the string and concatenate the chars in the string individually until you see the [
             while (stack_.top() != '[')
@@ -102,7 +102,7 @@ string decodeString(string s)
     
     buffer2 = decoded;
     decoded = "";
-    //using from whatever resulted from inside the encoded string we can now use the base k to output are fully decoded string
+    //using from whatever resulted from inside the encoded string we can now use the base k to output our fully decoded string
      for (int b = 0; b < base_k; b++)
         {
             decoded = buffer2 + decoded;
